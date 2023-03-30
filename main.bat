@@ -8,7 +8,7 @@ papermill preprocesamiento.ipynb preprocesamiento_output.ipynb
 
 papermill modelo.ipynb modelo_output.ipynb
 
-python get_media_std.py
+python get_params.py
 
 papermill prediccion.ipynb prediccion_output.ipynb -f aux_file/params.json
 
