@@ -2,3 +2,7 @@
 /input
 /aux_file
 /output
+validacion_datos_output.ipynb
+preprocesamiento_output.ipynb
+modelo_output.ipynb
+prediccion_output.ipynb
