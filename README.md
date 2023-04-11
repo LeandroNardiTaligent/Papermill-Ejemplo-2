@@ -38,16 +38,14 @@ Para ejecutar este proyecto se necesita tener instalado Python 3.6 o superior y 
 
 Se recomienda usar un ambiente virtual para instalar las librerías y evitar conflictos con otras versiones. Se puede crear un ambiente virtual **(para Windows)** usando los comandos:
 
-Crea un ambiente virtual llamado venv:
+Crea un ambiente virtual llamado venv
 ```bash
 python -m venv venv
 ```
-
 Activa el ambiente virtual
 ```bash
 venv/scripts/activate
 ```
-
 Instala las librerías y las actualiza si es necesario
 ```bash
 pip install -r requirements.txt --upgrade
@@ -58,9 +56,7 @@ En caso de usar Linux o Mac, los comandos cambian un poco su sintaxis. Se recome
 Para instalar el proyecto desde el repositorio que lo contiene como submódulo, se puede usar el comando git clone con la opción --recurse-submodules. Por ejemplo, se podría usar este comando:
 
 ```bash
-# Clona el repositorio principal y sus submódulos
-$ git clone --recurse-submodules https://github.com/proyecto-principal.git
-
+git clone --recurse-submodules https://github.com/LeandroNardiTaligent/Papermill-Ejemplos
 ```
 
 ## Uso
