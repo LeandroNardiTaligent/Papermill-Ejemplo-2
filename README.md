@@ -38,16 +38,19 @@ Para ejecutar este proyecto se necesita tener instalado Python 3.6 o superior y 
 
 Se recomienda usar un ambiente virtual para instalar las librerías y evitar conflictos con otras versiones. Se puede crear un ambiente virtual **(para Windows)** usando los comandos:
 
+Crea un ambiente virtual llamado venv:
 ```bash
-# Crea un ambiente virtual llamado venv
-$ python -m venv venv
+python -m venv venv
+```
 
-# Activa el ambiente virtual
-$ venv/scripts/activate
+Activa el ambiente virtual
+```bash
+venv/scripts/activate
+```
 
-# Instala las librerías y las actualiza si es necesario
-$ pip install -r requirements.txt --upgrade
-
+Instala las librerías y las actualiza si es necesario
+```bash
+pip install -r requirements.txt --upgrade
 ```
 
 En caso de usar Linux o Mac, los comandos cambian un poco su sintaxis. Se recomenda revisar como crear ambientes virtuales en dichos OS si se desea ejecutar el código en alguna distribución de Linux o Mac.
